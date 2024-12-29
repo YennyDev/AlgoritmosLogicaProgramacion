@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio1"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-29 06:47:36 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjo0MTozNSBwLsKgbS47MzQ1MQ=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjo0NzozNiBwLsKgbS47NDszNTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombresPonentes" type="String" array="True" size="5"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="nombrePonente" type="String" array="False" size=""/>
+            <for variable="contador" start="0" end="4" direction="inc" step="1">
+                <input variable="nombrePonente"/>
+                <assign variable="nombresPonentes[contador]" expression="nombrePonente"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

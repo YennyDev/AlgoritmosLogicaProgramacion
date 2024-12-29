@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="listas-bucles"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-29 06:35:41 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yNjsxMTozOTozOSBhLsKgbS47MzQ0MA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjozNTo0MSBwLsKgbS47NDszNTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="listaAsistentes" type="String" array="True" size="5"/>
+            <assign variable="listaAsistentes[0]" expression="&quot;Pablo&quot;"/>
+            <assign variable="listaAsistentes[1]" expression="&quot;Juan&quot;"/>
+            <assign variable="listaAsistentes[2]" expression="&quot;Yenny&quot;"/>
+            <assign variable="listaAsistentes[3]" expression="&quot;Carolina&quot;"/>
+            <assign variable="listaAsistentes[4]" expression="&quot;Luz&quot;"/>
+            <declare name="Contador" type="Integer" array="False" size=""/>
+            <assign variable="Contador" expression="0"/>
+            <while expression="contador &lt; 5">
+                <output expression="&quot;El asistente es: &quot; &amp; listaAsistentes[contador]" newline="True"/>
+                <assign variable="contador" expression="contador + 1"/>
+            </while>
+            <output expression="&quot;Ya no hay mas asistentes&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

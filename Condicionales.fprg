@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Condicionales"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-17 03:30:37 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzoyMDo1NSBwLsKgbS47MzQ0NA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzozMDozNyBwLsKgbS47MjszNTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edadPersona" type="Integer" array="False" size=""/>
+            <input variable="edadPersona"/>
+            <declare name="edadMinimaAccesoEjercito" type="Integer" array="False" size=""/>
+            <assign variable="edadMinimaAccesoEjercito" expression="18"/>
+            <declare name="resta" type="Integer" array="False" size=""/>
+            <assign variable="resta" expression="edadMinimaAccesoEjercito - edadPersona"/>
+            <if expression="edadPersona &gt;= 18">
+                <then>
+                    <output expression="&quot;ENHORABUENA USTED PUEDE INSCRIBIRSE AL EJERCITO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;LO SIENTO, DEBE ESPERAR &quot; &amp; resta &amp; &quot; A&#209;OS MAS&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

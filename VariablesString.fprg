@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="VariablesString"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-17 03:20:26 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzoxMjo0NyBwLsKgbS47MzQ0Ng=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzoyMDoyNiBwLsKgbS47MzszNTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Yenny&quot;"/>
+            <declare name="apellido" type="String" array="False" size=""/>
+            <assign variable="apellido" expression="&quot;Durango&quot;"/>
+            <declare name="nombreCompleto" type="String" array="False" size=""/>
+            <output expression="&quot;El usuario se llama: &quot; &amp; nombre &amp; &quot; &quot; &amp; apellido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

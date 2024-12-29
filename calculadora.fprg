@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calculadora"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-26 11:10:55 a.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yNjsxMDo0NTo0NiBhLsKgbS47MzQzNA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yNjsxMToxMDo1NSBhLsKgbS47NTszNTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Real" array="False" size=""/>
+            <input variable="numero1"/>
+            <declare name="numero2" type="Real" array="False" size=""/>
+            <input variable="numero2"/>
+            <declare name="tipoOperacion" type="String" array="False" size=""/>
+            <input variable="tipoOperacion"/>
+            <if expression="tipoOperacion == &quot;suma&quot;">
+                <then>
+                    <output expression="&quot;El resultado de la suma es: &quot; &amp; numero1 + numero2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="tipoOperacion == &quot;resta&quot;">
+                        <then>
+                            <output expression="&quot;El resultado de la resta es: &quot; &amp; numero1 - numero2" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tipoOperacion == &quot;multiplicacion&quot;">
+                                <then>
+                                    <output expression="&quot;El resultado de la multiplicacion es: &quot; &amp; numero1 * numero2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tipoOperacion == &quot;division&quot;">
+                                        <then>
+                                            <output expression="&quot;El resultado de la division es: &quot; &amp; numero1 / numero2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Operacion incorrecta debe ser suma, resta, multiplicacion o division&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

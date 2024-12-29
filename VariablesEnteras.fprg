@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Variables"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-17 03:07:46 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzowMjoxMCBwLsKgbS47MzQzNQ=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzowNzo0NiBwLsKgbS47MjszNTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad1" type="Integer" array="False" size=""/>
+            <assign variable="edad1" expression="25"/>
+            <declare name="edad2" type="Integer" array="False" size=""/>
+            <assign variable="edad2" expression="22"/>
+            <declare name="sumaEdades" type="Integer" array="False" size=""/>
+            <assign variable="sumaEdades" expression="edad1 + edad2"/>
+            <declare name="restaEdades" type="Integer" array="False" size=""/>
+            <assign variable="restaEdades" expression="edad1 - edad2"/>
+        </body>
+    </function>
+</flowgorithm>

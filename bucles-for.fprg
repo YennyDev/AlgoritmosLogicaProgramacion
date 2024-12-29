@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bucles-for"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-29 06:40:29 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjozNjoyOSBwLsKgbS47MzQ1OA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjo0MDoyOSBwLsKgbS47MzszNTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="texto" type="String" array="False" size=""/>
+            <input variable="texto"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="numeroDeVeces" type="Integer" array="False" size=""/>
+            <input variable="numeroDeVeces"/>
+            <for variable="contador" start="1" end="numeroDeVeces" direction="inc" step="1">
+                <output expression="texto" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

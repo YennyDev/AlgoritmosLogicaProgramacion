@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="VariablesReales"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-17 03:12:27 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzowNzo1NyBwLsKgbS47MzQ1MQ=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzoxMjoyNyBwLsKgbS47MjszNTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precioCarro" type="Real" array="False" size=""/>
+            <assign variable="precioCarro" expression="3000.999"/>
+            <declare name="precioCarro2" type="Real" array="False" size=""/>
+            <assign variable="precioCarro2" expression="4000.999"/>
+            <declare name="sumaCarros" type="Real" array="False" size=""/>
+            <assign variable="sumaCarros" expression="precioCarro + precioCarro2"/>
+        </body>
+    </function>
+</flowgorithm>

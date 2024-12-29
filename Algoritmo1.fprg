@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo1"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-17 03:02:00 p.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMTo1NDowMSBwLsKgbS47MzQ0MA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0xNzswMzowMjowMCBwLsKgbS47MTszNTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nacimientoUsuario" type="Integer" array="False" size=""/>
+            <input variable="nacimientoUsuario"/>
+            <declare name="a&#241;oActual" type="Integer" array="False" size=""/>
+            <assign variable="a&#241;oActual" expression="2024"/>
+            <declare name="edadCarnetConducir" type="Integer" array="False" size=""/>
+            <assign variable="edadCarnetConducir" expression="18"/>
+            <declare name="edadUsuario" type="Integer" array="False" size=""/>
+            <assign variable="edadUsuario" expression="a&#241;oActual - nacimientoUsuario"/>
+            <if expression="edadUsuario &gt;= edadCarnetConducir">
+                <then>
+                    <output expression="&quot;USUARIO SI PUEDE SACAR EL CARNET DE CONDUCIR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;USUARIO NO PUEDE SACAR EL CARNET DE CONDUCIR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

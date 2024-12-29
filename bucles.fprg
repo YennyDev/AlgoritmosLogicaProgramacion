@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Matrices-arrays"/>
+        <attribute name="authors" value="YELBONDIGA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-26 11:39:35 a.&#160;m."/>
+        <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yNjsxMToxMzo0NiBhLsKgbS47MzQzMA=="/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yNjsxMTozOTozNSBhLsKgbS47NDszNTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="listaDeTelefonos" type="Integer" array="True" size="3"/>
+            <assign variable="listaDeTelefonos[0]" expression="3210000000"/>
+            <assign variable="listaDeTelefonos[1]" expression="3011111111"/>
+            <assign variable="listaDeTelefonos[2]" expression="3132222222"/>
+            <declare name="listaDeNombres" type="String" array="True" size="3"/>
+            <assign variable="listaDeNombres[0]" expression="&quot;Yenny&quot;"/>
+            <assign variable="listaDeNombres[1]" expression="&quot;Pablo&quot;"/>
+            <assign variable="listaDeNombres[2]" expression="&quot;Jose&quot;"/>
+            <output expression="&quot;Hola tu nombre de asistencia es: &quot; &amp; listaDeNombres[0]" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
