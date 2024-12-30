@@ -4,9 +4,9 @@
         <attribute name="name" value="Ejercicio1"/>
         <attribute name="authors" value="YELBONDIGA"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-12-29 06:47:36 p.&#160;m."/>
+        <attribute name="saved" value="2024-12-29 07:15:16 p.&#160;m."/>
         <attribute name="created" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjo0MTozNSBwLsKgbS47MzQ1MQ=="/>
-        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNjo0NzozNiBwLsKgbS47NDszNTY5"/>
+        <attribute name="edited" value="WUVMQk9ORElHQTtERVNLVE9QLU9BT1RMSkw7MjAyNC0xMi0yOTswNzoxNToxNiBwLsKgbS47MTI7MzYxMA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,6 +18,29 @@
                 <input variable="nombrePonente"/>
                 <assign variable="nombresPonentes[contador]" expression="nombrePonente"/>
             </for>
+            <declare name="busqueda" type="String" array="False" size=""/>
+            <input variable="busqueda"/>
+            <declare name="contador2" type="Integer" array="False" size=""/>
+            <assign variable="contador2" expression="0"/>
+            <declare name="encontrado" type="Boolean" array="False" size=""/>
+            <assign variable="encontrado" expression="false"/>
+            <while expression="contador2 &lt; 5 &amp;&amp; encontrado == false">
+                <if expression="nombresPonentes[contador2] == busqueda">
+                    <then>
+                        <assign variable="encontrado" expression="true"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="contador2" expression="contador2 + 1"/>
+            </while>
+            <if expression="encontrado == true">
+                <then>
+                    <output expression="&quot;Hemos encontrado al usuario &quot; &amp; busqueda &amp; &quot; y es el numero &quot; &amp; contador2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No se encontro al usuario&quot;" newline="True"/>
+                </else>
+            </if>
         </body>
     </function>
 </flowgorithm>
